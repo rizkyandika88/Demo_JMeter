@@ -5,7 +5,7 @@ cd ~/jmeter/apache-jmeter-3.1/bin
 rm ~/workspace/ts_demo/pending_limit.jtl
 
 #user_profile
-./jmeter -n -t ~/workspace/ts_demo/pending_limit.jmx -l ~/workspace/ts_demo/pending_limit.jtl
+./jmeter -n -t ~/workspace/ts_demo/Pending\ Limit.jmx -l ~/workspace/ts_demo/pending_limit.jtl
 
 #generate graph
 cd ~/jmeter/apache-jmeter-3.1/lib
