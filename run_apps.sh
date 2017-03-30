@@ -23,4 +23,4 @@ java -jar cmdrunner-2.0.jar --tool Reporter --generate-png ~/workspace/ts_demo/r
 java -jar cmdrunner-2.0.jar --tool Reporter --generate-csv ~/workspace/ts_demo/synthesisReport_user_profile.csv --input-jtl ~/workspace/ts_demo/pending_limit.jtl \--plugin-type SynthesisReport  
 
 #summaryReport
-java -jar cmdrunner-2.0.jar --generate-csv ~/workspace/ts_demo/aggregateResults.csv --input-jtl ~/workspace/ts_demo/hasil.jtl --plugin-type AggregateReport
+java -jar cmdrunner-2.0.jar --tool Reporter --generate-csv ~/workspace/ts_demo/aggregateResults.csv --input-jtl ~/workspace/ts_demo/hasil.jtl --plugin-type AggregateReport
